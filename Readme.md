@@ -1,5 +1,5 @@
 
-####  Aktualisieren Sie Ihr System
+##  Aktualisieren Sie Ihr System
 
 Bevor Sie mit der Installation beginnen, ist es ratsam, sicherzustellen, dass Ihr Raspberry Pi auf dem neuesten Stand ist. Führen Sie dazu die folgenden Befehle aus:
 
@@ -111,7 +111,7 @@ Einfache Verwaltung: Mit PM2 können Sie Ihre Anwendungen einfach starten, stopp
 
 Durch die Verwendung von PM2 können Sie sicherstellen, dass Ihre Anwendungen stabil, zuverlässig und stets verfügbar sind, was besonders wichtig ist, wenn Sie produktive Umgebungen betreiben.
 
-# Automatisches Anlegen der Datenbank für die Anwendung
+## Automatisches Anlegen der Datenbank für die Anwendung
 
 Der Programmordner enhält eine Datei create_database.sql, die automatisch die passende Datenbank sowie einen Benutzer anlegt. 
 
@@ -133,7 +133,7 @@ Anzeigen der Benutzer: SELECT User, Host FROM mysql.user;
 Es ist natürlich auch möglich die in dem Script enthaltenen SQL-Statements anzupassen oder selbst auszuführen.
 
 
-# Installation der Dependencies für das Node.js-Projekt
+## Installation der Dependencies für das Node.js-Projekt
 
 Wenn Sie das Node.js-Projekt von GitHub heruntergeladen haben und die Dependencies installieren möchten, führen Sie bitte die folgenden Schritte aus:
 
@@ -154,7 +154,7 @@ Dieser Befehl liest die Informationen aus der Datei `package.json` im Projektord
 
 Das ist alles! Durch Ausführen des Befehls `npm install` im Projektordner sollten Sie alle erforderlichen Dependencies für das Node.js-Projekt installieren können, basierend auf den Informationen aus der `package.json`-Datei.
 
-# Anlegen einer .env-Datei
+## Anlegen einer .env-Datei
 
 Ein .env-Datei ist eine Textdatei, die Umgebungsvariablen für eine Anwendung oder ein Projekt enthält. Diese Variablen werden normalerweise als Schlüssel-Wert-Paare definiert, wobei der Schlüssel den Namen der Variablen angibt und der Wert den entsprechenden Wert enthält. Die .env-Datei wird oft verwendet, um sensible Informationen wie Zugangsdaten, API-Schlüssel oder Konfigurationsoptionen zu speichern, ohne sie direkt im Quellcode der Anwendung zu hinterlegen.
 
@@ -164,7 +164,7 @@ Der Name ".env" steht für "environment" (Umgebung) und wird von vielen Framewor
 
 Die Zugangsdaten und vertraulichen Informationen die für die Datenbank- und Mqtt-Verbindung notwendig sind, werden aus Sicherheitsgründen dieser Datei gespeichert, die im Projektordner angelegt werden muss.
 
-# Starten der Anwendung mit PM2
+## Starten der Anwendung mit PM2
 
 Im Projektordner auführen:
 
