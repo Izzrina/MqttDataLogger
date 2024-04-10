@@ -175,7 +175,7 @@ pm2 start app.js
 Liste der aktiven Anwendungen anzeigen:
 
 ```bash
-pm2 start app.js
+pm2 list
 ```
 
 | id | name  | mode | ↺  | status | cpu  | memory |
