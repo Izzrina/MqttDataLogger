@@ -205,7 +205,7 @@ Die Konsolenausgabe und Fehlermeldungen der Anwendungen werden in Logfiles gespe
 ```bash
 pm2 logs
 ```
-angeezeigt werden.
+angezeigt werden.
 
 
 
